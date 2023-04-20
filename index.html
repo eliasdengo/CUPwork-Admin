@@ -417,7 +417,7 @@
 
 
                     <main id="main">
-                        <!--this all about local link dynamically isert into user interface-->
+                        <!--this all about users dynamically retrive ,add,update, delete into user interface-->
                         <div class="text-center m-3 px-4">
                             <h1>ADMIN PAGE</h1>
                         </div>
@@ -429,8 +429,7 @@
                                             <div>
                                                 <h1>Users | Companies</h1>
                                             </div>
-                                            <!--the link that direct to add new items link-->
-                                            <div><a href="locallink.php">Add New</a></div>
+            
                                             <div>
                                                 <div class="table-responsive">
                                                     <!--table to edit and delete ,the data add into database display -->
@@ -454,7 +453,7 @@
                                             </div>
   
   
-  <!-- Modal -->
+  <!-- Modal for add ,update and delete  for users-->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -487,15 +486,14 @@
                                     </div>
                                 </div>
                         
-                                <!--all about remittance link to company-->
+                                <!--all data retrive from firebase database which is jobs form job table-->
                                 <div class="col-6">
 
                                     <form action="" method="post" enctype="multipart/form-data">
                                         <div>
                                             <h1>Jobs</h1>
                                         </div>
-                                        <!--link to direct into ad new items-->
-                                        <div><a href="remittancelink.php">Add New</a></div>
+
                                         <div>
                                             <div class="table-responsive">
 
@@ -534,7 +532,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; cupwork.com 2023</span>
                     </div>
                 </div>
             </footer>
@@ -571,7 +569,7 @@
         </div>
     </div>
     
-
+                          <!--backend of our project using firebase and java script about users --->
    
     <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore-compat.js"></script>
